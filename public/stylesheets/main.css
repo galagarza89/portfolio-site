@@ -1,0 +1,428 @@
+
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+}
+
+.mainPageBody {
+  background: url('https://images.unsplash.com/photo-1510843572979-e4b9e790fdd7?ixlib=rb-0.3.5&s=f4a1d54dbc8ac357c9a6607d5bb40440&auto=format&fit=crop&w=2593&q=80') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h2 {
+	font-size: 9vw;
+	font-family: 'Oswald';
+	text-align: center;
+}
+
+h3 {
+	font-size: 5vw;
+	font-family: 'Oswald';
+}
+
+h4 {
+	font-size: 20px;
+}
+
+/*****************************
+Navbar Styles
+*****************************/
+
+.navbar {
+	font-family: 'Oswald', sans-serif;
+}
+
+.navbar-dark .navbar-brand {
+	color: #f7e9dc;
+	/*color: #fff;*/
+}
+
+.navbar-dark .navbar-nav .nav-link  {
+	color: #f7e9dc;
+	/*color: #fff;*/
+}
+
+.navbar-dark .navbar-nav .active>
+.nav-link, .navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link.show, .navbar-dark 
+.navbar-nav .show>.nav-link {
+	color: #f7e9dc;	
+}
+
+/*****************************
+Footer 
+*****************************/
+
+footer {
+	width: 100%;
+	padding-top: 80px;
+}
+
+footer a, a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+.socialLinks {
+	text-align: center;
+	background-color: #3e464f;
+	width: 100%
+}
+
+.socialLinks svg {
+	margin: 5px 8px;
+}
+
+.copyright {
+	text-align: center;
+	color: #f7e9dc;
+	background-color: #343a40;
+	width: 100%;
+}
+
+/*****************************
+Home Page Text Content
+*****************************/
+
+.textBoxes {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  border-radius: 3px;
+}
+
+.textBox1 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.textBox1 h2 {
+	background-color: #000;
+	padding-bottom: 8px;
+	color: #f7e9dc;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.textBox2 {
+	width: 60%;
+	margin: 10px auto;
+}
+
+.textBox2 h3 {
+	width: 60%;
+	background-color: #000;
+	padding-bottom: 5px;
+	color: #f7e9dc;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*****************************
+About Page
+*****************************/
+
+.aboutPageBody {
+	height: 100vh;
+	background-color: #eff0f2;
+}
+
+.aboutSection {
+	padding: 125px 0 0;
+}
+
+.aboutSection h3 {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.textContent {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.aboutSection .row{
+	margin: 0 auto;
+}
+
+.imgAboutDiv {
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.aboutImage {
+	max-height: 400px;
+	max-width: 400px;
+	border-radius: 5%;
+}
+
+/*****************************
+Contact Page
+*****************************/
+
+.contactPageBody {
+	background-color: #eff0f2;
+	height: 100vh;
+}
+
+.formSection {
+	padding-top: 80px;
+}
+
+.formSection h2 {
+	font-size: 60px;
+	padding-bottom: 10px;
+}
+
+.contactLabel {
+	color: #3e464f;
+	margin: 5px auto;
+}
+
+.contactLabel label {
+	margin: 0;
+}
+
+.contactLabel input {
+	border: 2px solid #3e464f;
+	border-radius: 0;
+}
+
+.contactform {
+	margin: 0;
+}
+
+.contactform textarea {
+	height: 150px;
+	resize: none;
+	border: 2px solid #3e464f;
+	border-radius: 0;
+	margin: 0 auto;
+}
+
+.contactform button {
+	margin: 10px 0;
+	border-radius: 0;
+}
+
+.contactMessage label {
+	margin: 0;
+}
+
+.btn {
+    /*padding: 14px 24px;*/
+    border: 2px solid #3e464f;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background-color: #eff0f2;
+    color: #3e464f;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+	color: #f7e9dc;
+    background-color: #3e464f;
+    border: 2px solid #3e464f;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background-color: #eff0f2;
+    box-shadow: none;
+}
+
+.contactIconsDiv {
+	margin-top: 60px;
+}
+
+.contactIconsDiv a div {
+	text-decoration: none;
+	color: #000;
+}
+
+.contactIconsDiv a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.contactIcon {
+	margin: 20px auto;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.contactIcon p {
+	padding: 5px;
+}
+
+.submit-failure {
+	color: #FF0000;
+}
+
+.submit-success {
+	margin: 150px auto;
+}
+
+.successPageBody {
+	height: 100vh;
+}
+
+.successFooter {
+	bottom: 0;
+	position: absolute;	
+}
+
+/*****************************
+Portfolio Page
+*****************************/
+
+.portfolioPageBody {
+	background-color: #eff0f2;
+}
+
+.portfolioDiv {
+	margin-top: 100px;
+}
+
+.portfolioDiv h2 {
+	font-size: 60px;
+	margin: 30px 0;
+}
+
+.skillIconDiv h3 {
+	font-size: 30px;
+	margin: 5px 0;
+}
+
+.skillIcon {
+	height: 240px;
+	margin: 5px 0;
+	text-align: center;
+}
+
+.skillIcon svg {
+	margin: 10px 0;
+	color: #000;
+}
+
+.skillIcon p {
+	width: 80%;
+	margin: 10px auto;
+}
+
+
+.portImageSection {
+	width: 90%;
+	margin: 20px auto;
+}
+
+.portImage {
+  position: relative;
+  margin: 15px 0;
+}
+ 
+.portImage img {
+/*  min-height: 265px;*/
+  border: 10px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 0px 6px 8px #777;
+     -moz-box-shadow: 0px 6px 8px #777;
+          box-shadow: 0px 6px 8px #777;
+}
+ 
+.portImage p {
+  font-family: 'Lobster', cursive;
+  padding-top: 8px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 5px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+}
+
+hr {
+	width: 70%;
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+
+/*****************************
+Media Queries
+*****************************/
+
+@media (min-width: 576px) {
+
+	h2 {
+		font-size: 52px;
+	}
+
+	h3 {
+		font-size: 29px;
+	}
+
+}
+
+@media (min-width: 768px) { 
+
+	h2 {
+		font-size: 70px;
+	}
+
+	h3 {
+		font-size: 40px;
+	}
+
+	.contactIconsDiv {
+		margin-top: 0px;
+	}
+
+
+	.aboutPageBody footer {
+		bottom: 0;
+		position: absolute;
+	}
+
+	.textContent {
+		margin: 0;
+	}
+	.formSection {
+		padding: 80px 70px 0;
+	}
+
+}
+
+@media (min-width: 992px) { 
+
+	.contactPageBody footer {
+		bottom: 0;
+		position: absolute;
+	}
+}
+

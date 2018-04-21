@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+{{> head}}
+<body class="contactPageBody">
+
+  {{> nav}}
+
+<div class="container-fluid ">
+  <div class="formSection">
+  	<h2>Contact</h2>
+    <div class="submit-failure">
+      <h4>An error occured sending the email. Please try again..</h4>
+    </div>
+  	<div class="row">
+  	    <div class="col-xs-12 col-md-7 ">
+          {{> contactForm}}
+          {{> contactIcons}}
+      </div> <!-- End row contact -->
+</div> <!-- End of container -->
+
+  {{> footer}}
+
+  {{> scripts}}
+  
+</body>
+</html>
