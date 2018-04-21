@@ -2,7 +2,6 @@
   "name": "portfoliosite",
   "version": "1.0.0",
   "description": "",
-  "homepage": "davidgalagarza.com",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
